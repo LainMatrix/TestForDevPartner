@@ -22,3 +22,7 @@ tr :focus{
     background :#35C835;
 }
 
+.bt{
+    display:none;
+}
+

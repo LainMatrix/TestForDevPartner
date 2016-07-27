@@ -8,39 +8,48 @@
 
 
 <div class="col-lg-6">
-   
+
     <script src="~/Scripts/myscript.js"></script>
     <script>
-       
+
     </script>
     <table class="customer table table-striped table-bordered table-hover table-condensed">
 
         <caption>Заказчики</caption>
         <thead>
-    <tr>
-        <th>Name</th>
-        <th>Address</th>
-        <th>Update</th>
-        <th>Delete</th>
-        <th>Add Orders</th>
-    </tr>
-            </thead>
-<tbody class="body">
-        @foreach (var customer in Model.Customers)
-        {
             <tr>
-                
-                <td>@customer.Name</td>
-                <td>@customer.Address</td>
-                <td>@Html.ActionLink("Изменить", "Edit", "Customers", new { id = customer.CustomerId }, null)</td>
-                <td>@Html.ActionLink("Удалить", "Delete", "Customers", new { id = customer.CustomerId }, null)</td>
-                <td>@Html.ActionLink("Добавить заказ", "Create", "Orders", new { CustomerId = customer.CustomerId }, null)</td>
-                <td class="hideme">@customer.CustomerId</td>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Update</th>
+                <th>Delete</th>
+                <th>Add Orders</th>
             </tr>
-        }
-        <tr><td colspan="5" class="text-center">@Html.ActionLink("Добавить заказчика", "Create", "Customers")</td></tr>
+        </thead>
+        <tbody class="body">
+            @foreach (var customer in Model.Customers)
+            {
+                <tr>
+
+                    <td>@customer.Name</td>
+                    <td>@customer.Address</td>
+                    <td>@Html.ActionLink("Изменить", "Edit", "Customers", new { id = customer.CustomerId }, null)</td>
+                    <td>@Html.ActionLink("Удалить", "Delete", "Customers", new { id = customer.CustomerId }, null)</td>
+                    <td>@Html.ActionLink("Добавить заказ", "Create", "Orders", new { CustomerId = customer.CustomerId }, null)</td>
+                    <td class="hideme">@customer.CustomerId</td>
+                </tr>
+            }
+            <tr><td colspan="5" class="text-center">@Html.ActionLink("Добавить заказчика", "Create", "Customers")</td></tr>
         </tbody>
     </table>
+    <div>
+        <p class="message">                                  Для отображения заказов конкретного пользователя,просто выбирите его в таблице</p>
+        <div class="button form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input  type="button"  value="Покозать все заказы." class="btn bt btn-default" />
+            </div>
+
+        </div>
+    </div>
 </div>
 
 <div class="col-lg-6">

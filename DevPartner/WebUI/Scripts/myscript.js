@@ -8,15 +8,29 @@ $(document).ready(function () {
         $(".orders tbody.body tr ").hide();
 
         var elements = $(".orders tbody.body tr");
-        for(var element in elements)
+        elements.each(function()
         {
-            var id2 = $(element).children(".hideme").first().text();
+            var id2 = $(this).children(".hideme").first().text();
             if(id2==id)
             {
-                element.show();
+                $(this).show();
             }
         }
-    }
+       
+        )
+        $(".bt").show();
+        $(".message").hide();
+    });
+   
+    
+    
+    $(".bt").on("click",function(){
 
-    )
-})
+
+        $(this).hide();
+        $(".message").show();
+        $(".orders tbody.body tr ").show();
+
+    
+    } )  ;
+});
