@@ -1,0 +1,80 @@
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\WebUI.dll.config
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\WebUI.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\WebUI.pdb
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Domain.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Helpers.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Mvc.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Razor.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Webpages.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Domain.pdb
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Razor.xml
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Webpages.xml
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Helpers.xml
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\System.Web.Mvc.xml
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\obj\Debug\WebUI.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\obj\Debug\WebUI.pdb
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\EntityFramework.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Ninject.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Ninject.Web.Common.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Ninject.Web.Mvc.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\WebActivator.dll
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\EntityFramework.xml
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Ninject.pdb
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Ninject.xml
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Ninject.Web.Common.pdb
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Ninject.Web.Common.xml
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Ninject.Web.Mvc.pdb
+C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\WebUI\bin\Ninject.Web.Mvc.xml
+E:\test\DevPartner\WebUI\bin\WebUI.dll.config
+E:\test\DevPartner\WebUI\bin\WebUI.dll
+E:\test\DevPartner\WebUI\bin\WebUI.pdb
+E:\test\DevPartner\WebUI\bin\Domain.dll
+E:\test\DevPartner\WebUI\bin\EntityFramework.dll
+E:\test\DevPartner\WebUI\bin\EntityFramework.SqlServer.dll
+E:\test\DevPartner\WebUI\bin\Ninject.dll
+E:\test\DevPartner\WebUI\bin\Ninject.Web.Common.dll
+E:\test\DevPartner\WebUI\bin\Ninject.Web.Mvc.dll
+E:\test\DevPartner\WebUI\bin\System.Web.Helpers.dll
+E:\test\DevPartner\WebUI\bin\System.Web.Mvc.dll
+E:\test\DevPartner\WebUI\bin\System.Web.Razor.dll
+E:\test\DevPartner\WebUI\bin\System.Web.Webpages.Deployment.dll
+E:\test\DevPartner\WebUI\bin\System.Web.Webpages.dll
+E:\test\DevPartner\WebUI\bin\System.Web.Webpages.Razor.dll
+E:\test\DevPartner\WebUI\bin\WebActivator.dll
+E:\test\DevPartner\WebUI\bin\Domain.pdb
+E:\test\DevPartner\WebUI\bin\EntityFramework.xml
+E:\test\DevPartner\WebUI\bin\EntityFramework.SqlServer.xml
+E:\test\DevPartner\WebUI\bin\Ninject.pdb
+E:\test\DevPartner\WebUI\bin\Ninject.xml
+E:\test\DevPartner\WebUI\bin\Ninject.Web.Common.pdb
+E:\test\DevPartner\WebUI\bin\Ninject.Web.Common.xml
+E:\test\DevPartner\WebUI\bin\Ninject.Web.Mvc.pdb
+E:\test\DevPartner\WebUI\bin\Ninject.Web.Mvc.xml
+E:\test\DevPartner\WebUI\bin\System.Web.Razor.xml
+E:\test\DevPartner\WebUI\bin\System.Web.Webpages.xml
+E:\test\DevPartner\WebUI\bin\System.Web.Webpages.Deployment.xml
+E:\test\DevPartner\WebUI\bin\System.Web.Webpages.Razor.xml
+E:\test\DevPartner\WebUI\bin\System.Web.Helpers.xml
+E:\test\DevPartner\WebUI\bin\System.Web.Mvc.xml
+E:\test\DevPartner\WebUI\bin\ru\System.Web.Razor.resources.dll
+E:\test\DevPartner\WebUI\bin\ru\System.Web.Webpages.resources.dll
+E:\test\DevPartner\WebUI\bin\ru\System.Web.Webpages.Deployment.resources.dll
+E:\test\DevPartner\WebUI\bin\ru\System.Web.Webpages.Razor.resources.dll
+E:\test\DevPartner\WebUI\bin\ru\System.Web.Helpers.resources.dll
+E:\test\DevPartner\WebUI\bin\ru\System.Web.Mvc.resources.dll
+E:\test\DevPartner\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+E:\test\DevPartner\WebUI\obj\Debug\WebUI.dll
+E:\test\DevPartner\WebUI\obj\Debug\WebUI.pdb
