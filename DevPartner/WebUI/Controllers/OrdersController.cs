@@ -89,8 +89,8 @@ namespace WebUI.Controllers
                 return HttpNotFound();
             }
 
-            OrdersModel model = new OrdersModel() { Date = order.Date, Amount = order.Amount, CustomerId = order.Customer.CustomerId, Description = order.Description,Number=order.Number };
-
+            OrdersModel model = new OrdersModel() { Date = order.Date.Date, Amount = order.Amount, CustomerId = order.Customer.CustomerId, Description = order.Description,Number=order.Number };
+            TempData["order"] = order;
 
             return View(model);
         }
@@ -103,8 +103,16 @@ namespace WebUI.Controllers
 
             if (ModelState.IsValid)
             {
-                Order adder = new Order() { Amount = order.Amount, Date = order.Date, Description = order.Description };
-                
+                //customer custumer = db.customers.find(order.customerid);
+                //if (custumer == null)
+                //{
+                //    return httpnotfound();
+                //}
+            Order adder = (Order)TempData["order"];
+                adder.Amount = order.Amount;
+                adder.Date = order.Date;
+                adder.Description = order.Description;
+
                 db.Entry(order).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("list", "Report");
