@@ -8,3 +8,13 @@ C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\Domain\bin\Debug\
 C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\Domain\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\Domain\bin\Debug\EntityFramework.xml
 C:\Users\Lain\Documents\Visual Studio 2013\Projects\DevPartner\Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\devpartner\DevPartner\Domain\bin\Debug\Domain.dll.config
+E:\devpartner\DevPartner\Domain\bin\Debug\Domain.dll
+E:\devpartner\DevPartner\Domain\bin\Debug\Domain.pdb
+E:\devpartner\DevPartner\Domain\bin\Debug\EntityFramework.dll
+E:\devpartner\DevPartner\Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\devpartner\DevPartner\Domain\bin\Debug\EntityFramework.xml
+E:\devpartner\DevPartner\Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\devpartner\DevPartner\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+E:\devpartner\DevPartner\Domain\obj\Debug\Domain.dll
+E:\devpartner\DevPartner\Domain\obj\Debug\Domain.pdb

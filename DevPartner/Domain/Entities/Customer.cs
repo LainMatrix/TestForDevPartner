@@ -11,10 +11,11 @@ namespace Domain.Entities
     {
       public int CustomerId { get; set; }
 
-
+         [Display(Name = "Имя")]
          [Required(ErrorMessage = "Поле должно быть установлено")]
       public  string Name { get; set; }
 
+         [Display(Name = "Адрес ")]
          [Required(ErrorMessage = "Поле должно быть установлено")]
        public string Address { get; set; }
 

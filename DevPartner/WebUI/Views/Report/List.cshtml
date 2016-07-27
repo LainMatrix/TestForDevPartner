@@ -2,20 +2,30 @@
 
 @{
     ViewBag.Title = "Вывод таблиц";
+  
+
 }
 
 
 <div class="col-lg-6">
-    <table class=" table table-striped table-bordered table-hover table-condensed">
+   
+    <script src="~/Scripts/myscript.js"></script>
+    <script>
+       
+    </script>
+    <table class="customer table table-striped table-bordered table-hover table-condensed">
 
         <caption>Заказчики</caption>
-        <tr>
-            <th>Name</th>
-            <th>Address</th>
-            <th>Update</th>
-            <th>Delete</th>
-            <th>Add Orders</th>
-        </tr>
+        <thead>
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Update</th>
+        <th>Delete</th>
+        <th>Add Orders</th>
+    </tr>
+            </thead>
+<tbody class="body">
         @foreach (var customer in Model.Customers)
         {
             <tr>
@@ -25,39 +35,43 @@
                 <td>@Html.ActionLink("Изменить", "Edit", "Customers", new { id = customer.CustomerId }, null)</td>
                 <td>@Html.ActionLink("Удалить", "Delete", "Customers", new { id = customer.CustomerId }, null)</td>
                 <td>@Html.ActionLink("Добавить заказ", "Create", "Orders", new { CustomerId = customer.CustomerId }, null)</td>
+                <td class="hideme">@customer.CustomerId</td>
             </tr>
         }
         <tr><td colspan="5" class="text-center">@Html.ActionLink("Добавить заказчика", "Create", "Customers")</td></tr>
-
+        </tbody>
     </table>
 </div>
 
 <div class="col-lg-6">
-    <table class=" table table-striped table-bordered table-hover table-condensed">
+    <table class="orders table table-striped table-bordered table-hover table-condensed">
 
         <caption>Заказы</caption>
-        <tr>
-            <th>Number</th>
-            <th>Date</th>
-            <th>Amount</th>
-            <th>Description</th>
-            <th>Update</th>
-            <th>Delete</th>
-
-        </tr>
-        @foreach (var orders in Model.Orders)
-        {
+        <thead>
             <tr>
-                <td>@orders.Number</td>
-                <td>@orders.Date</td>
-                <td>@orders.Amount</td>
-                <td>@orders.Description</td>
-                <td>@Html.ActionLink("Изменить", "Edit", "Orders", new { id = orders.Number }, null)</td>
-                <td>@Html.ActionLink("Удалить", "Delete", "Orders", new { id = orders.Number }, null)</td>
-                <td class="hideme">@orders.Customer.CustomerId</td>
-            </tr>
-        }
-        <tr><td colspan="6" class="text-center">@Html.ActionLink("Добавить заказ", "Create", "Orders")</td></tr>
+                <th>Number</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Description</th>
+                <th>Update</th>
+                <th>Delete</th>
 
+            </tr>
+        </thead>
+<tbody class="body">
+            @foreach (var orders in Model.Orders)
+            {
+                <tr>
+                    <td>@orders.Number</td>
+                    <td>@orders.Date.ToShortDateString()</td>
+                    <td>@orders.Amount</td>
+                    <td>@orders.Description</td>
+                    <td>@Html.ActionLink("Изменить", "Edit", "Orders", new { id = orders.Number }, null)</td>
+                    <td>@Html.ActionLink("Удалить", "Delete", "Orders", new { id = orders.Number }, null)</td>
+                    <td class="hideme">@orders.Customer.CustomerId</td>
+                </tr>
+            }
+            <tr><td colspan="6" class="text-center">@Html.ActionLink("Добавить заказ", "Create", "Orders")</td></tr>
+        </tbody>
     </table>
 </div>

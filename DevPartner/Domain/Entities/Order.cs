@@ -11,18 +11,18 @@ namespace Domain.Entities
         [Key]
         public int Number { get; set; }
 
-         
-     
-   
-        
-        public DateTime Date { get; set; }
 
 
        
+        [DataType(DataType.Date)]
+        public DateTime Date { get; set; }
+
+
+     
         public int Amount { get; set; }
 
 
-        
+           [UIHint("MultilineText")]
         public string Description { get; set; }
    
         [Required]
